@@ -12,7 +12,7 @@ We propose a data transformation module which allows us to encode skeleton seque
 </p>
 By this way, each skeleton sequence is encoded into a single RGB image. The following picture describes this process:
 <p align="center"> 
-<img src="https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/data-transformation.png">
+<img src="https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/data-transformation-process.png">
 </p>
 
 

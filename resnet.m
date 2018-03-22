@@ -1,7 +1,7 @@
 function [net, info] = res_cifar(m, varargin)
 
 setup;
-opts.modelType = 'resnet' ;
+opts.modelType = false;
 opts.preActivation = false;
 opts.reLUafterSum = true;
 opts.shortcutBN = true;
@@ -35,12 +35,9 @@ end
 %                        Prepare model and data
 % -------------------------------------------------------------------------
 
-if opts.preActivation ,
-    net = resnet_preactivation_init(m) ;
-else
-    net = resnet_init(m, 'networkType', opts.modelType, ...
+net = resnet_init(m, 'networkType', opts.modelType, ...
       'reLUafterSum', opts.reLUafterSum) ;
-end
+
 
 if ~exist('imdb', 'var'), 
   

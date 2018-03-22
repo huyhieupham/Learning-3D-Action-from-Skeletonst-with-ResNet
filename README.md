@@ -10,3 +10,6 @@ We propose a data transformation module which allows us to encode skeleton seque
 ![image-1](https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/data-transformation.png)
 </p>
 
+<p align="center"> 
+<img src="https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/data-transformation.png">
+</p>

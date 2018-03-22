@@ -25,5 +25,17 @@ Figure 2: Illustration of the data transformation process. N denotes the number 
 <p align="center"> 
     Figure 3: A building block of ResNet.
   </p>
+  
+  **Training and results**
+  
+  <p align="center"> 
+<img src="https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/Training.png">
+</p>
+<p align="center"> 
+   Learning curves on MSR Action3D/AS1 dataset. Dashed lines denote training errors (%), bold lines denote testing errors (%).
+  </p>
+  
+  
+  
 
 

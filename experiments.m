@@ -1,7 +1,5 @@
 function experiments(Ns, MTs, varargin)
  
-%  Try to run this code on GPU by using: experiments([20 32 44 56 110], 'resnet', 'gpus', [1]);
-
 setup;
 
 opts.expDir = fullfile('data', 'exp');

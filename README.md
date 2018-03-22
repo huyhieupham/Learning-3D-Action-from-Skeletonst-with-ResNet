@@ -9,9 +9,12 @@ We propose a data transformation module which allows us to encode skeleton seque
 <p align="center"> 
 <img src="https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/data-transformation.png">
 </p>
-By this way, each skeleton sequence is encoded into a single RGB image. The following picture describes this process:
+By this way, each skeleton sequence is encoded into a single RGB image. The following picture describes this process. We then design different ResNet architetures for learning the spatial-temporal information from RGB-coded images for recognition tasks.
 <p align="center"> 
 <img src="https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/data-transformation-process.png">
+</p>
+<p align="center"> 
+<img src="https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/resnet.png">
 </p>
 
 

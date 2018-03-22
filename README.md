@@ -27,6 +27,13 @@ Figure 2: Illustration of the data transformation process. N denotes the number 
   </p>
   
   **Training and results**
+
+
+Before running the experiments, you need to download and compile [VLFeat](http://www.vlfeat.org/), and [MatConvNet](http://www.vlfeat.org/matconvnet/). Then, start to train ResNets on GPU by the following commande:
+
+
+ ```experiments([20 32 44 56 110], 'resnet', 'gpus', [1]);```
+
   
   <p align="center"> 
 <img src="https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/Training.png">

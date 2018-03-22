@@ -1,4 +1,4 @@
-function [net, info] = res_cifar(m, varargin)
+function [net, info] = resnet(m, varargin)
 
 setup;
 opts.modelType = false;

@@ -32,7 +32,7 @@ Figure 2: Illustration of the data transformation process. N denotes the number 
 Before running the experiments, you need to download and compile [VLFeat](http://www.vlfeat.org/), and [MatConvNet](http://www.vlfeat.org/matconvnet/). Then, start to train ResNets on GPU by the following commande:
 
 
- ```experiments([20 32 44 56 110], 'resnet', 'gpus', [1]);```
+ ```experiments([20 32 44 56 110], 'gpus', [1]);```
 
   
   <p align="center"> 

@@ -6,7 +6,6 @@ This repository is an implementation of "[Learning and Recognizing Human Action 
 
 
 We propose a data transformation module which allows us to encode skeleton sequences into 3D-arrays and store them in color images. The skeleton data is captured in frames, each frame contains the 3D coordinates of skeletal joints. We transform all the 3D coordinates of each frame into a new space by normalizing these coordinates by the transformation function:
-
 <p align="center"> 
 <img src="https://github.com/huyhieupham/Learning-and-Recognizing-Human-Action-from-Skeleton-Movement-with-Deep-Residual-Neural-Networks/blob/master/figure/data-transformation.png">
 </p>
